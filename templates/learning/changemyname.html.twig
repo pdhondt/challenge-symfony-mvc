@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+
+{% endblock %}
+
+{% block body %}
+    <form method="post">
+        <p>You changed your name to {{ name }}.  Do you want to save?</p>
+        <input type="submit" name="save" value="Save">
+    </form>
+
+{% endblock %}
+
