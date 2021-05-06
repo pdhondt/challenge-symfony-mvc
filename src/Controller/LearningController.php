@@ -18,7 +18,7 @@ class LearningController extends AbstractController
         ]);
     }
 
-    #[Route('/about-me', name: 'about')]
+    #[Route('/about-becode', name: 'about')]
     public function aboutMe(): Response
     {
         if (empty($_SESSION['name'])){
